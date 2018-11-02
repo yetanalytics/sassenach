@@ -68,6 +68,12 @@ $ clojure -A:watch-sass
 
 Use the time you save to make beautiful things.
 
+## Testing
+
+``` shell
+$ clojure -A:test:runner
+```
+
 ## License
 
 Copyright © 2018 Yet Analytics Inc.
