@@ -90,7 +90,7 @@
                ::input-not-found
                (printf "Input file not found:\n%s\n"
                        input-path)
-               (printf "Unhandled Error:\n%s\n" (ex-message exi)))))
+               (printf "Unhandled Error:\n%s\n" (.getMessage exi)))))
          ;; Throw anything if it's initial comp
          (throw exi))))
 
