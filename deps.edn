@@ -3,7 +3,7 @@
         deraen/sass4clj {:mvn/version "0.3.1"}
         hawk {:mvn/version "0.2.11"}}
  :aliases
- {:test {:extra-paths ["test"]
+ {:test {:extra-paths ["test" "test_resources"]
          :extra-deps {org.clojure/test.check {:mvn/version "RELEASE"}}}
   :runner
   {:extra-deps {com.cognitect/test-runner
