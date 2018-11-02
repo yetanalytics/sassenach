@@ -1,9 +1,7 @@
 (ns com.yetanalytics.sassenach
   (:require [sass4clj.core :as sass]
             [clojure.java.io :as io]
-            [hawk.core :as hawk]
-            [clojure.pprint :refer [pprint]]
-            [clojure.spec.alpha :as s])
+            [hawk.core :as hawk])
   (:import [java.io File]
            [java.lang Thread Runtime]))
 
