@@ -1,5 +1,7 @@
 # sassenach
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.yetanalytics/sassenach.svg)](https://clojars.org/com.yetanalytics/sassenach)
+
 A Clojure library to make Sass compilation a tiny bit easier. It wraps [sass4clj](https://github.com/Deraen/sass4clj), which I guess makes it a wrapper of a wrapper of a wrapper? In any case, I assure you that this is the hottest wrapper out there right now.
 
 ## Usage
