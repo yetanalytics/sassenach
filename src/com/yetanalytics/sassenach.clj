@@ -51,7 +51,9 @@
                             (time-ms
                              (compile! input-path
                                        output-path
-                                       :source-map true)))
+                                       :source-map true
+                                       :source-paths (into []
+                                                           add-watch-paths))))
                     (flush))
           watch-paths (input->watch-paths input-path)]
       (comp-fn)
